@@ -20,7 +20,7 @@ function Pop() {
                     width: '1100px',
                     height: '1000px',
                     backgroundColor: '#ccc'
-                }}>
+                }} >
                     <ul className="pl-img">
                         <li>
                             <span><img src="https://shoppingcdn.namyangi.com/attach/item/2023/202305/19c1d8ba-6871-4588-91b3-5c0e54ee8da1.png" alt="" /></span>
@@ -60,7 +60,7 @@ function Pop() {
                     </ul>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 export default Pop;

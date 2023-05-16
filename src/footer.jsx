@@ -18,7 +18,7 @@ function Footer() {
                             내 손안에 남양몰 오픈!<br />
                             앱스토어, 구글플레이에서 만나요
                         </span><br /><br />
-                        <a href="">다운로드 <span>></span></a>
+                        <a href="">다운로드</a>
                     </div>
                     <div className="fcol fcustomer">
                         <h2>고객센터</h2>
@@ -32,11 +32,11 @@ function Footer() {
                     </div>
                     <div className="fcol fcustomer2">
                         <a href="">
-                            <span>img</span><br />
+                            <span><img src="" alt="" /></span><br />
                             <span>1:1 문의</span>
                         </a><br />
                         <a href="">
-                            <span>img</span><br />
+                            <span><img src="" alt="" /></span><br />
                             <span>자주묻는질문</span>
                         </a>
                     </div>
@@ -88,10 +88,10 @@ function Footer() {
                         남양아이몰의 정보, 콘텐츠 및 UI등을 상업적 목적으로 전재, 전송, 스크래핑 등 무단 사용할 수 없습니다.
                     </div>
                     <ul className="fright_img">
-                        <li>img<img src="" alt="" /></li>
-                        <li>img<img src="" alt="" /></li>
-                        <li>img<img src="" alt="" /></li>
-                        <li>img<img src="" alt="" /></li>
+                        <li><img src="https://shopping.namyangi.com/resources/images/common/img_certimark_06.gif" alt="" /></li>
+                        <li><img src="https://shopping.namyangi.com/resources/images/common/img_certimark_01.gif" alt="" /></li>
+                        <li><img src="https://shopping.namyangi.com/resources/images/common/img_certimark_03.gif" alt="" /></li>
+                        <li><img src="https://shopping.namyangi.com/resources/images/common/img_certimark_04.gif" alt="" /></li>
                     </ul>
                 </div>
             </div>

@@ -43,9 +43,14 @@
     color: red;
 }
 
-pl-img img {
-    display: block;
-    overflow: hidden;
-    width: 550px;
-    height: 187px;
+.pl-img {
+    padding: 0;
+    width: 100%;
+    display: inline-block;
+}
+
+
+.pl-img img {
+    width: 50%;
+    height: 200px;
 }
