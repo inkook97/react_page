@@ -6,14 +6,14 @@
 .header {
   width: 100%;
   height: 120px;
-  background-color: yellowgreen;
+  background-color: rgb(247, 248, 249);
+  border-bottom: 1px solid #ccc;
 }
 
 .header_in {
   margin: 0 auto;
   width: 1100px;
   height: 120px;
-  background-color: rgb(220, 231, 198);
   display: flex;
   justify-content: space-between;
 }
@@ -21,7 +21,6 @@
 .header_in .logo {
   width: 130px;
   height: 120px;
-  background-color: violet;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +29,6 @@
 .header_in .nav {
   width: 850px;
   height: 120px;
-  background-color: violet;
 }
 
 .header_in .nav ul {
@@ -39,6 +37,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.header_in .nav ul>li>a {
+  color: #000;
+  font-weight: 600;
 }
 
 .mainimg {
@@ -78,9 +81,9 @@
 .subpath {}
 
 .subimg {
-  width: 100%;
-  height: 300px;
-  background-color: aqua;
+  width: 1100px;
+  height: 400px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -118,6 +121,29 @@
   width: 250px;
   border: 1px solid #ccc;
   box-sizing: border-box;
+}
+
+.e_item1 {
+  margin: 0;
+  padding: 0;
+  width: 1100px;
+  float: left;
+}
+
+.e_item1>li {
+  width: 100%;
+  float: left;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.e_item1>li>span:last-child {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.e_item1>li>span {
+  float: left;
 }
 
 .footer {
