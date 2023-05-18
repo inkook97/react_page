@@ -19,7 +19,16 @@ function Product() {
     const items = useItemState()
     return (
         <div>
-            <div className="subimg">product</div>
+            <div className="subimg">
+                <div className="subimg_in">
+                    <p><a href="">Home &#62; 냉장제품</a></p>
+                    <h2>냉장제품</h2>
+                </div>
+                <div style={{ marginTop: '100px', float: 'left', width: '100%' }}>
+                    <p style={{ float: 'left', width: '100%' }}>총 <span style={{ color: 'red' }}>26</span>개의 상품이 있습니다.
+                        <button style={{ float: 'right', border: '1px solid #000', backgroundColor: '#fff', padding: '10px', boxSizing: 'border-box' }}>상세검색</button></p>
+                </div>
+            </div>
             <div className="contents">
                 <div className="contents_in">
                     <div className={styles.list_h}>

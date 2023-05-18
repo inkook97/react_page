@@ -1,17 +1,67 @@
 import React from "react";
 import styles from './member.module.css';
+import { useItemState } from "../context";
 
-function Member() {
+function Memberitem({ item }) {
     return (
         <div>
-            <div className={styles.subimg}>member</div>
+            <div>
+                <span>※냉장</span>
+            </div>
+            <img src={item.src} />
+            <h4>{item.title}</h4>
+            <p>{item.price}</p>
+        </div>
+    )
+}
+
+function Member() {
+    const items = useItemState();
+    return (
+        <div>
+            <div className="subimg_in">
+                <p><a href="">Home &#62; 프리미엄멤버십 &#62; 프리미엄멤버십 안내 &#62; 소개</a></p>
+                <h2>프리미엄멤버십</h2>
+            </div>
+            <div className={styles.subimg} style={{ background: 'url(https://shoppingcdn.namyangi.com/attach/site/2020/202011/a0262bb6-6047-47ad-a608-1b8bb5604490.png) 100% center no-repeat', width: '1100px', margin: '0 auto' }}></div>
             <div style={{
                 margin: '0 auto',
                 width: '1100px',
-                height: '1000px',
-                backgroundColor: '#ccc'
-            }}>contents</div>
-        </div>
+                height: '2000px',
+            }}>
+                <div className="event_style" style={{ width: '100%', textAlign: 'center', marginTop: '75px', float: 'left' }}>
+                    <span style={{ backgroundColor: 'red', color: '#fff', padding: '10px', borderRadius: '50%', width: '100%' }}>혜택1</span>
+                    <h3 style={{ paddingTop: '30px', fontSize: '28px', fontWeight: 600 }}>웰컴 기프트로 가입비 돌려받자 !</h3>
+                    <p style={{ marginTop: '-30px', fontSize: '20px', color: '#7e7e7e' }}>가입비 내신 만큼 돌려드립니다 (택 1)</p>
+                </div>
+                <div className={styles.list_b} style={{ float: 'left' }}>
+                    {items.map((item) => (
+                        <Memberitem item={item} key={item.id} />
+                    ))}
+                </div>
+                <p style={{ fontSize: '15px', color: '#7e7e7e', textAlign: 'center' }}>가입선물은 유료 가입자에 한하여 지급되며 선택한 사은품은 변경 및 교환이 불가합니다</p>
+                <div style={{ width: '100%', display: 'flex', padding: '20px', marginTop: '100px', boxSizing: 'border-box', backgroundColor: '#eeeeee' }}>
+                    <div style={{ width: '33.3%' }}>
+                        <h3>프리미엄멤버십 FAQ</h3>
+                        <span>더보기</span>
+                    </div>
+                    <div style={{ width: '33.3%', }}>
+                        <ul style={{ textOverflow: 'ellipsis', color: '#444', fontSize: '15px' }}>
+                            <li><span>1 </span>프리미엄 멤버십이란 무엇인가요?</li>
+                            <li><span>2 </span>프리미엄 멤버십 할인이 적용되는 제품은 어떤 것이 있나요?</li>
+                            <li><span>3 </span>남양유업의 다른 멤버십(다둥이 카드등)혜택과 중복할인이 가능한가요?</li>
+                        </ul>
+                    </div>
+                    <div style={{ width: '33.3%' }}>
+                        <ul style={{ textOverflow: 'ellipsis', color: '#444', fontSize: '15px' }}>
+                            <li><span>4 </span>프리미엄 멤버십에 가입할수 있는 조건은 무엇인가요?</li>
+                            <li><span>5 </span>남양몰의 일반 사은품과 중복 지급되나요? 사은품 종류는 어떤 기준으로 정해지나요?</li>
+                            <li><span>6 </span>등급별 주문제한 총량은 얼마나 되나요?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div >
     )
 }
 export default Member;
