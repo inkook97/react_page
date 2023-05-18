@@ -25,6 +25,7 @@ function Main() {
             <Mainimg />
             <div className='contents'>
                 <div className='contents_in'>
+                    <h2 style={{marginTop:'100px', fontWeight:'700'}}>이런 상품 어때요?</h2>
                     <div className="items">
                         {items.map((item) => (
                             <ProductItem item={item} key={item.id} />

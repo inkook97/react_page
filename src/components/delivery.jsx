@@ -17,7 +17,7 @@ function Delivery() {
                 <div style={{
                     margin: '0 auto',
                     width: '1100px',
-                    height: '1000px',
+                    height: '900px',
                 }}>
                     <div className="event_tabmn" id='event_tabmn'>
                         <Tabs

@@ -3,46 +3,23 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Mainimg() {
     return (
-        <div className='subimg' id='mainimg'>
+        <div className='subimg' id='mainimg' style={{ height: '580px' }}>
             <Carousel>
                 <Carousel.Item>
-                    <div style={{ width: '100%', height: '300px', background: 'red', color: '#fff' }}>
-                        <h3>슬라이드01</h3>
+                    <div style={{ width: '100%', height: '580px', background: 'url(https://shoppingcdn.namyangi.com/attach/site/2023/202305/e2eedca6-7a8d-4cba-a7c5-1a51abd08df5.png?03bba6c) no-repeat' }}>
                     </div>
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <div style={{ width: '100%', height: '300px', background: 'green', color: '#fff' }}>
-                        <h3>슬라이드02</h3>
+                    <div style={{ width: '100%', height: '580px', background: 'url(https://shoppingcdn.namyangi.com/attach/site/2023/202305/f5b4996a-9307-4fcf-a642-2bdd70054157.png?03bba6c) no-repeat' }}>
                     </div>
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <div style={{ width: '100%', height: '300px', background: 'blue', color: '#fff' }}>
-                        <h3>슬라이드03</h3>
+                    <div style={{ width: '100%', height: '580px', background: 'url(https://shoppingcdn.namyangi.com/attach/site/2023/202304/ccbbfa73-13a9-4c0a-ad1e-8124a0a6722f.png?03bba6c) no-repeat' }}>
                     </div>
-
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <div style={{ width: '100%', height: '300px', background: 'red', color: '#fff' }}>
-                        <h3>슬라이드04</h3>
+                    <div style={{ width: '100%', height: '580px', background: 'url(https://shoppingcdn.namyangi.com/attach/site/2023/202304/296602ac-7482-449b-a99c-2b90bd3fb38f.png?03bba6c) no-repeat' }}>
                     </div>
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
         </div>

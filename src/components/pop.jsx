@@ -7,7 +7,7 @@ function Pop() {
             <div className="subimg" style={{ width: '100%', height: '500px', backgroundColor: '#fff' }}>
                 <div className="pop_in">
                     <p><a href="">Home &#62; 기획전</a></p>
-                    <div className="pop_banner">banner</div>
+                    <div className="pop_banner"></div>
                     <ul>
                         <li>남양 기획전</li>
                         <li>총 <span>7</span>건의 기획전이 있습니다.</li>

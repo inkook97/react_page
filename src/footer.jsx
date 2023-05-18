@@ -62,12 +62,6 @@ function Footer() {
                         <option value="">아이꼬야</option>
                     </select>
                     <a href="">이동</a>
-                    <ul>
-                        <li>icon</li>
-                        <li>icon</li>
-                        <li>icon</li>
-                        <li>icon</li>
-                    </ul>
                 </div>
                 <div className="fright">
                     <span className="info info_all">대표자 성명 : 이광범</span>
