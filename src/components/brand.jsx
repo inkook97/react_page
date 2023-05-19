@@ -38,7 +38,7 @@ function Brand() {
         <div>
             <div className="subimg" style={{ width: '100%', height: '200px', backgroundColor: '#fff' }}>
                 <div className="subimg_in">
-                    <p><a href="#">Home &#62; 브랜드</a></p>
+                    <p>Home &#62; 브랜드</p>
                     <h2>브랜드</h2>
                 </div>
             </div>

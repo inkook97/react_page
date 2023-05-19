@@ -38,7 +38,7 @@ function App() {
           <div className='header_in'>
             <div className='logo'>
               {/* <Link to="/"><img src={LogoImg} alt="" /></Link> */}
-              <Link to="/"><img src={require('./images/logo.png')} alt="" /></Link>
+              <Link to="/"><img src={require('./images/logo.png')} alt="#" /></Link>
             </div>
             <div className='nav'>
               <ul>
