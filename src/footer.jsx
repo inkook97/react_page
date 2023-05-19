@@ -32,11 +32,9 @@ function Footer() {
                     </div>
                     <div className="fcol fcustomer2">
                         <a href=" ">
-                            <span><img src="" alt=" " /></span><br />
                             <span>1:1 문의</span>
                         </a><br />
                         <a href=" ">
-                            <span><img src="" alt=" " /></span><br />
                             <span>자주묻는질문</span>
                         </a>
                     </div>

@@ -65,8 +65,19 @@ const initItems = [
 
 function itemReducer(state, action) {
     switch (action.type) {
+        case 'CREATE':
+            return state.concat(action.todo);
 
-    }
+        case 'TOGGLE':
+            return state.map(todo =>
+                todo.id === action.id ? { ...todo, done: !todo.done } : todo);
+
+        case 'REMOVE':
+            return state.filter(todo => todo.id !== action.id);
+
+        default:
+            throw new Error(`${action.type}이 잘못 전달됨`)
+    };
 }
 
 
@@ -76,11 +87,12 @@ export function ItemProvider({ children }) {
     const [state, dispatch] = useReducer(itemReducer, initItems);
 
     return (
-        <ItemStateContext.Provider value={state}>
-            {children}
+        <ItemStateContext.Provider value={dispatch}>
+            <ItemStateContext.Provider value={state}>
+                {children}
+            </ItemStateContext.Provider>
         </ItemStateContext.Provider>
     )
-
 }
 
 export function useItemState() {
