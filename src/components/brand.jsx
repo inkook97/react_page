@@ -2,7 +2,7 @@ import React from "react";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 // import { useItemState } from "../context";
-import styles from "./brand.css"
+// import styles from "./brand.css"
 
 //분류별
 // function BrandItem1({ item }) {
@@ -38,7 +38,7 @@ function Brand() {
         <div>
             <div className="subimg" style={{ width: '100%', height: '200px', backgroundColor: '#fff' }}>
                 <div className="subimg_in">
-                    <p><a href="">Home &#62; 브랜드</a></p>
+                    <p><a href="#">Home &#62; 브랜드</a></p>
                     <h2>브랜드</h2>
                 </div>
             </div>
