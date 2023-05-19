@@ -17,7 +17,7 @@ function Market() {
                         <h3 style={{ fontWeight: '600', float: 'left' }}>시크릿코드 입력 <span style={{ color: 'red', fontWeight: '400', float: 'right' }}>(오놀라운특가)</span></h3>
                         <span style={{ float: 'right' }}><span style={{ color: 'red' }}>*</span>필수입력 항목</span>
                     </div>
-                    <ul style={{ float: 'left', marign: 0, padding: 0, padding: '0 20px', width: '1100px', height: '100px', lineHeight: '100px', borderTop: '3px solid #000', borderBottom: '1px solid #000' }}>
+                    <ul style={{ float: 'left', marign: 0, padding: '0 20px', width: '1100px', height: '100px', lineHeight: '100px', borderTop: '3px solid #000', borderBottom: '1px solid #000' }}>
                         <li style={{ float: 'left' }}><span style={{ color: 'red' }}>*</span>시크릿코드</li>
                         <li style={{ float: 'left', paddingLeft: '70px' }}><input type="text" placeholder="시크릿코드를 입력해주세요." title="시크릿코드 입력" style={{ height: '38px', width: '430px', padding: '10px 15px' }} /></li>
                     </ul>
