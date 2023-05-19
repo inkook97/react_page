@@ -9,7 +9,7 @@ function Memberitem({ item }) {
                 <div>
                     <span>※냉장</span>
                 </div>
-                <img src={item.src} />
+                <img src={item.src} alt=" " />
                 <h4>{item.title}</h4>
                 <p>{item.price}</p>
             </div>
@@ -22,7 +22,7 @@ function Member() {
     return (
         <div>
             <div className="subimg_in">
-                <p><a href="">Home &#62; 프리미엄멤버십 &#62; 프리미엄멤버십 안내 &#62; 소개</a></p>
+                <p>Home &#62; 프리미엄멤버십 &#62; 프리미엄멤버십 안내 &#62; 소개</p>
                 <h2>프리미엄멤버십</h2>
             </div>
             <div className={styles.subimg} style={{ background: 'url(https://shoppingcdn.namyangi.com/attach/site/2020/202011/a0262bb6-6047-47ad-a608-1b8bb5604490.png) 100% center no-repeat', width: '1100px', margin: '0 auto' }}></div>

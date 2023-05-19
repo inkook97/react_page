@@ -8,7 +8,7 @@ function ProductItem({ item }) {
             <div>
                 <span>※냉장</span>
             </div>
-            <img src={item.src} />
+            <img src={item.src} alt=" " />
             <h4>{item.title}</h4>
             <p>{item.price}</p>
         </div>
@@ -21,7 +21,7 @@ function Product() {
         <div>
             <div className="subimg">
                 <div className="subimg_in">
-                    <p><a href="">Home &#62; 냉장제품</a></p>
+                    <p>Home &#62; 냉장제품</p>
                     <h2>냉장제품</h2>
                 </div>
                 <div style={{ marginTop: '100px', float: 'left', width: '100%' }}>

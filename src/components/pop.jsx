@@ -1,12 +1,11 @@
 import React from "react";
-import styles from "./pop.css"
 
 function Pop() {
     return (
         <div>
             <div className="subimg" style={{ width: '100%', height: '500px', backgroundColor: '#fff' }}>
                 <div className="pop_in">
-                    <p><a href="">Home &#62; 기획전</a></p>
+                    <p>Home &#62; 기획전</p>
                     <div className="pop_banner"></div>
                     <ul>
                         <li>남양 기획전</li>
