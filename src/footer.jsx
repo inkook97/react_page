@@ -18,7 +18,7 @@ function Footer() {
                             내 손안에 남양몰 오픈!<br />
                             앱스토어, 구글플레이에서 만나요
                         </span><br /><br />
-                        <a href="">다운로드</a>
+                        <a href=" ">다운로드</a>
                     </div>
                     <div className="fcol fcustomer">
                         <h2>고객센터</h2>
@@ -31,12 +31,12 @@ function Footer() {
                         <span className="call">1522-0130</span>
                     </div>
                     <div className="fcol fcustomer2">
-                        <a href="">
-                            <span><img src="" alt="" /></span><br />
+                        <a href=" ">
+                            <span><img src="" alt=" " /></span><br />
                             <span>1:1 문의</span>
                         </a><br />
-                        <a href="">
-                            <span><img src="" alt="" /></span><br />
+                        <a href=" ">
+                            <span><img src="" alt=" " /></span><br />
                             <span>자주묻는질문</span>
                         </a>
                     </div>
@@ -44,10 +44,10 @@ function Footer() {
             </div>
             <div className="footer-middle">
                 <ul className="footer-middle_in">
-                    <li><a href="">회사소개</a></li>
-                    <li><a href="">이용약관</a></li>
-                    <li><a href="">개인정보처리방침</a></li>
-                    <li><a href="">고객센터</a></li>
+                    <li><a href=" ">회사소개</a></li>
+                    <li><a href=" ">이용약관</a></li>
+                    <li><a href=" ">개인정보처리방침</a></li>
+                    <li><a href=" ">고객센터</a></li>
                 </ul>
             </div>
             <div className="footer-bottom">
@@ -61,7 +61,7 @@ function Footer() {
                         <option value="">남양아이</option>
                         <option value="">아이꼬야</option>
                     </select>
-                    <a href="">이동</a>
+                    <a href=" ">이동</a>
                 </div>
                 <div className="fright">
                     <span className="info info_all">대표자 성명 : 이광범</span>
