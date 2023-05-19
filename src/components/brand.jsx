@@ -1,42 +1,38 @@
 import React from "react";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import { useItemState } from "../context";
+// import { useItemState } from "../context";
 import styles from "./brand.css"
 
 //분류별
-function BrandItem1({ item }) {
-    if (item.brand1) {
-        return (
-            <div>
-                <div>
-                    <span>※냉장</span>
-                </div>
-                <img src={item.src} />
-                <h4>{item.title}</h4>
-                <p>{item.price}</p>
-            </div>
-        )
-    }
-}
-//이름별
-function BrandItem2({ item }) {
-    if (item.brand2) {
-        return (
-            <div>
-                <div>
-                    <span>※냉장</span>
-                </div>
-                <img src={item.src} />
-                <h4>{item.title}</h4>
-                <p>{item.price}</p>
-            </div>
-        )
-    }
-}
+// function BrandItem1({ item }) {
+//     return (
+//         <div>
+//             <div>
+//                 <span>※냉장</span>
+//             </div>
+//             <img src={item.src} />
+//             <h4>{item.title}</h4>
+//             <p>{item.price}</p>
+//         </div>
+//     )
+// }
+// //이름별
+// function BrandItem2({ item }) {
+//     return (
+//         <div>
+//             <div>
+//                 <span>※냉장</span>
+//             </div>
+//             <img src={item.src} />
+//             <h4>{item.title}</h4>
+//             <p>{item.price}</p>
+//         </div>
+//     )
+// }
 
 function Brand() {
-    const items = useItemState();
+    // const items = useItemState();
 
     return (
         <div>
